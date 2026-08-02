@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cumpleaños de Luis - 20 años</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- Portada elegante -->
+    <div id="portada" class="portada-elegante">
+        <div class="portada-contenido fade-in">
+            <h1 class="titulo-portada-elegante">Celebración de los 20 Años</h1>
+            <h2 class="sub-portada-elegante">Luis</h2>
+            <button id="entrarBtn" class="btn-entrar-elegante">Entrar</button>
+        </div>
+    </div>
+
+
+    <!-- Contenido principal (solo este debe existir) -->
+    <div id="invitacion" class="oculto page">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <h1 class="titulo-hero">¡Luis cumple 20!</h1>
+            <p class="texto-hero">Estás invitado a una celebración elegante y especial ✨</p>
+        </section>
+
+        <!-- Sección Cuenta Regresiva -->
+        <section class="countdown-section card card-itinerario-bg">
+            <div id="countdownContainer">
+                <h2 class="titulo-countdown">Faltan</h2>
+
+                <div class="countdown-grid">
+                    <div class="time-box">
+                        <span id="dias" class="number">00</span>
+                        <span class="label">Días</span>
+                    </div>
+                    <div class="time-box">
+                        <span id="horas" class="number">00</span>
+                        <span class="label">Horas</span>
+                    </div>
+                    <div class="time-box">
+                        <span id="minutos" class="number">00</span>
+                        <span class="label">Minutos</span>
+                    </div>
+                    <div class="time-box">
+                        <span id="segundos" class="number">00</span>
+                        <span class="label">Segundos</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mensaje del cumpleañero -->
+        <section class="mensaje-cumple card">
+            <h2 class="titulo-seccion">Un mensaje especial</h2>
+
+            <div class="contenido-mensaje">
+                <p class="texto-mensaje">
+                    Gracias por acompañarme en esta etapa tan importante.
+                    Estoy muy feliz de compartir este día tan especial contigo ✨
+                </p>
+            </div>
+        </section>
+
+        <div class="divider-gold"></div>
+
+        <!-- Detalles del evento -->
+        <section class="detalles card">
+            <h2 class="titulo-seccion">Detalles del Evento</h2>
+            <ul>
+                <li><strong>Fecha:</strong> Sábado 14 de diciembre</li>
+                <li><strong>Hora:</strong> 7:00 PM</li>
+                <li><strong>Lugar:</strong> Casa de Eventos Sakura, CDMX</li>
+                <li><strong>Código de vestimenta:</strong> Elegante casual</li>
+            </ul>
+        </section>
+
+        <div class="divider-gold"></div>
+        <!-- Itinerario -->
+        <section class="itinerario card card-itinerario-bg">
+            <h2 class="titulo-seccion">Itinerario</h2>
+
+            <table class="tabla-itinerario">
+                <tbody>
+                    <tr>
+                        <td class="col-icono">🎉</td>
+                        <td class="col-actividad">Recepción y bienvenida</td>
+                        <td class="col-hora">7:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="col-icono">🍽️</td>
+                        <td class="col-actividad">Cena especial</td>
+                        <td class="col-hora">7:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="col-icono">📸</td>
+                        <td class="col-actividad">Sesión de fotos</td>
+                        <td class="col-hora">9:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="col-icono">💃</td>
+                        <td class="col-actividad">Baile</td>
+                        <td class="col-hora">10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="col-icono">🎂</td>
+                        <td class="col-actividad">Pastel y brindis</td>
+                        <td class="col-hora">11:30 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+        <!-- Mapa -->
+        <section class="mapa card">
+            <h2 class="titulo-seccion">Cómo llegar</h2>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1118.643780374334!2d-99.16957844503956!3d19.427342307155314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffabce8d6dc3%3A0x1c9c55303609c72e!2sShake%20Shack!5e0!3m2!1ses!2smx!4v1764611191612!5m2!1ses!2smx"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <a href="https://maps.app.goo.gl/TqCEM21FwDLEx1tF6"
+               target="_blank"
+               class="btn-mapa">
+                Abrir en Google Maps
+            </a>
+        </section>
+
+        <!-- Galería -->
+        <section class="galeria-seccion">
+            <h2 class="titulo-seccion">Galería</h2>
+
+            <!-- Mockup de iPhone -->
+            <div class="iphone-mockup">
+                <!-- Isla Dinámica (Cámara frontal del iPhone) -->
+                <div class="iphone-notch"></div>
+
+                <!-- Galería Swiper dentro de la pantalla del iPhone -->
+                <div class="galeria-swiper swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/Gemini_Generated_Image_hocs79hocs79hocs.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/Gemini_Generated_Image_dzi07bdzi07bdzi0.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/Gemini_Generated_Image_u4ypdiu4ypdiu4yp.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/Gemini_Generated_Image_wcd9r2wcd9r2wcd9.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/Gemini_Generated_Image_52fw6852fw6852fw.png" alt=""></div>
+                    </div>
+
+                    <!-- Botones de navegación -->
+                    <div class="custom-prev">‹</div>
+                    <div class="custom-next">›</div>
+
+                    <!-- Paginación -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- RSVP -->
+        <section class="rsvp card">
+            <h2 class="titulo-seccion">Confirmar asistencia</h2>
+            <p>Por favor confirma tu asistencia antes del 10 de diciembre.</p>
+
+            <div class="rsvp-actions">
+                <a href="https://wa.me/5215555555555" target="_blank" class="btn-rsvp">Confirmar por WhatsApp</a>
+                <button id="copyLinkBtn" class="btn-small">Copiar enlace</button>
+            </div>
+        </section>
+
+        <div class="divider-gold"></div>
+
+        <footer class="footer">
+            <p>Gracias por formar parte de este momento especial.</p>
+        </footer>
+    </div>
+
+    <!-- Modal de imagen -->
+    <div id="imgModal" class="img-modal oculto">
+        <button id="closeModal" class="modal-close">✕</button>
+        <img id="modalImg" src="" alt="Vista ampliada">
+    </div>
+
+    <!-- Música -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="audio/Cults - Always Forever (Demo - Official Audio) [pWqrbr4LZJ4].mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Botón flotante de música -->
+    <button id="musicToggle" class="music-btn">🎵</button>
+
+    <!-- Librerías -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Tu script (AL FINAL) -->
+    <script src="script.js"></script>
+</body>
+</html>
